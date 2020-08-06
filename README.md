@@ -12,6 +12,9 @@
 - [ ] AA-树
 - [ ] 二叉堆
 
+### 图
+* [ ] 有向图
+
 ### 参考资料
 * 主要原理和流程
 > https://baijiahao.baidu.com/s?id=1577200621749785094&wfr=spider&for=pc
