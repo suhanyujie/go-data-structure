@@ -83,6 +83,8 @@ func findOrderByBreadth(numCourses int, prerequisites [][]int) []int {
 	)
 	for _, info := range prerequisites {
 		edges[info[1]] = append(edges[info[1]], info[0])
+		// 统计入度：入度表示某个课程的依赖。
+		// 入度为1，表示依赖一个课程，入度为2，表示依赖2个课程
 		indeg[info[0]]++
 	}
 	q := []int{}
