@@ -8,7 +8,6 @@ func TestShowGraph(t *testing.T) {
 }
 
 func TestRun(t *testing.T) {
-	Run()
 	t.Fatal("this is test log for Run")
 }
 
