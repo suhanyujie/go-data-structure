@@ -31,6 +31,9 @@ var (
 // 寻路
 // ref: https://leetcode.cn/problems/bP4bmD/solutions/939367/tong-guan-jian-2-bfs-hui-su-by-muluo-2-w4gy/
 func allPathsSourceTarget(graph [][]int) [][]int {
+	// clear
+	path = make([]int, 0)
+	result = make([][]int, 0)
 	// 回溯法+递归 todo
 	path = append(path, 0)
 	var dfs func(graph [][]int, node int)
